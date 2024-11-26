@@ -1,0 +1,28 @@
+.chatWindow {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  .chatHeader {
+    padding: 15px;
+    background-color: #00838f;
+    color: white;
+  }
+
+  .chatHistory {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+}
+
+.emptyChat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.2rem;
+  color: #888;
+}
